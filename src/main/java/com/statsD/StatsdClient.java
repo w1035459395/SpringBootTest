@@ -181,7 +181,7 @@ public class StatsdClient extends TimerTask {
             /* This would be a good place to close the channel down and recreate it. */
             /*log.error(
                     String.format("Could not send stat %s to host %s:%d", sendBuffer.toString(), _address.getHostName(),
-                            _address.getPort()), e);*/
+                            _address.getPort()), e);123*/
             return false;
         }
     }
